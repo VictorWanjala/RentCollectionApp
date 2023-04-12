@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "570835282994",
+    "project_id": "rentcollectionapp-7ec93",
+    "storage_bucket": "rentcollectionapp-7ec93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570835282994:android:2b75f5d53a0c87c029a02b",
+        "android_client_info": {
+          "package_name": "com.vicvestar.rentcollectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570835282994-pga3s1p1jd660sb0tre0f24b0jifqtam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdd_Y2Jws3Fc0wLT3LeDP4yDmXz-ZXh84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570835282994-pga3s1p1jd660sb0tre0f24b0jifqtam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
