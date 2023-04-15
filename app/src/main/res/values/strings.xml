@@ -2,4 +2,8 @@
     <string name="app_name">RentCollectionApp</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="phone_number" />
+    <string name="email_address" />
+    <string name="checkout_btn" />
+    <string name="amount" />
 </resources>
