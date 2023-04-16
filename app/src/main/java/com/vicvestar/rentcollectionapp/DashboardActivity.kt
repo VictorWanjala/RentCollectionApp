@@ -22,5 +22,10 @@ class DashboardActivity:AppCompatActivity() {
             intent.setData(Uri.parse("tel:0700794573"));
             startActivity(intent);
         }
+        CallCaretaker.setOnClickListener {
+            val intent =  Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse("tel:0704514885"));
+            startActivity(intent);
+        }
     }
 }
