@@ -27,5 +27,9 @@ class DashboardActivity:AppCompatActivity() {
             intent.setData(Uri.parse("tel:0704514885"));
             startActivity(intent);
         }
+        RoomDetails.setOnClickListener {
+            val intent = Intent(this, RoomActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

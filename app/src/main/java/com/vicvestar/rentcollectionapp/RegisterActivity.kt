@@ -5,10 +5,12 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
 import com.vicvestar.rentcollectionapp.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegisterBinding
+    private lateinit var database: DatabaseReference
     private lateinit var firebaseAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,9 +22,11 @@ class RegisterActivity : AppCompatActivity() {
 
 
         binding.btnRegister.setOnClickListener {
+
             val email = binding.email.text.toString()
             val pass = binding.password.text.toString()
             val confirmpass = binding.cpassword.text.toString()
+
 
             if (email.isNotEmpty() && pass.isNotEmpty() && confirmpass.isNotEmpty()){
                 if (pass == confirmpass){

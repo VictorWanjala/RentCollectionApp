@@ -178,7 +178,7 @@
                     android:textSize="13sp"
                     android:gravity="center"
                     android:layout_height="wrap_content"
-                    android:text="Click here to talk to the caretaker"/>
+                    android:text="What to talk to the caretaker, click here"/>
 
 
 
@@ -302,7 +302,7 @@
                     android:textSize="13sp"
                     android:gravity="center"
                     android:layout_height="wrap_content"
-                    android:text="1st Floor, Room A1, 1Bedroom"/>
+                    android:text="Please Click Here to update your room details"/>
 
 
 

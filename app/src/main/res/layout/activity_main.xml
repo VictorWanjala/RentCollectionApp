@@ -46,15 +46,15 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="-4dp"
         android:layout_marginTop="40dp"
+        android:background="#9CCC65"
         android:padding="18sp"
-        android:background="@android:color/holo_green_light"
         android:shadowColor="@android:color/holo_green_light"
         android:text="Welcome to your new home! We're thrilled to have you as a resident of Victors Greens Court. You can simply click on the pay button within the app to submit your rent payment securely and conveniently."
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         android:visibility="visible"
         tools:visibility="visible" />
 
